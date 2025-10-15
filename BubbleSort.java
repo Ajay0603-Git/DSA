@@ -12,7 +12,7 @@ public class BubbleSort {
 
         for(int k=0;k<A.length;k++)
         {
-            for(int j=k+1;j<A.length-1;j++)
+            for(int j=k+1;j<A.length;j++)
             {
                 if(A[k]>A[j])
                 {
@@ -30,3 +30,4 @@ public class BubbleSort {
     }
     
 }
+
